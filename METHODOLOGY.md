@@ -30,7 +30,7 @@ CH 128 ][ Elapsed: 42 s ][ 2024-11-11 15:13
 
 ```
 ## CHOOSE FOR THE RESPECTIVE AUTHENTICATION METHODS
-### 3a. If AUTH is **WEP**
+### 3a. If AUTH is *WEP*
 #### Theory
 ```
 - 24-bit IV
@@ -103,7 +103,7 @@ d. Get the flag from 192.168.1.1
 root@kali:~# curl http://192.168.1.1/proof.txt 
 
 ```
-### 3b. If AUTH is **WPA2-PSK**
+### 3b. If AUTH is *WPA2-PSK*
 #### Theory
 ```
 -4-way handshake
@@ -167,7 +167,7 @@ bound to 192.168.1.84 -- renewal in 41214 seconds.
 d. Get the flag from 192.168.1.1
 root@kali:~# curl http://192.168.1.1/proof.txt
 ```
-### 3b. If AUTH is **WPA2-MGT**
+### 3b. If AUTH is *WPA2-MGT*
 #### Theory
 ```
 - Client does not authenticate the AP, susceptible to Evil Twin AP
