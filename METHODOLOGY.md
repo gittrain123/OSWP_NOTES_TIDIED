@@ -44,7 +44,7 @@ CH 128 ][ Elapsed: 42 s ][ 2024-11-11 15:13
 - Note:
 a. Can choose to use ESSID or BSSID.
 b. Get the details of the station connected to the AP same as ESSID, BSSID, Channel
-root@kali:~# airodump-ng <interface_name> --essid <ESSID> --channel <CHANNEL_NO >-w <FILENAME>
+root@kali:~# airodump-ng <interface_name> --essid <ESSID> --channel <CHANNEL_NO > -w <FILENAME>
 
 e.g:
 root@kali:~# airodump-ng wlan0mon --essid wifi-old --channel 3 -w wep
