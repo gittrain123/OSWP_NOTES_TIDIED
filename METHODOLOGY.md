@@ -62,6 +62,8 @@ root@kali:~# aircrack-ng <File_Name> -w /usr/share/wordlists/rockyou.txt
 e.g.
 root@kali:~# aircrack-ng wep3-01.cap -w /usr/share/wordlists/rockyou.txt
 
+NOTE!!! If the aircrack-ng output is all 0 in all the bytes regions, run the aircrack-ng command without wordlist i.e. aircrack-ng wep3-01.cap
+
 # 4. Note down the wifi key - The key is the KEY FOUND! without : e.g 11BB33CD55
 example output:
 Attack will be restarted every 5000 captured ivs.
